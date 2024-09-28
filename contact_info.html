@@ -8,10 +8,11 @@
     <title>Electric Worthy</title>
 </head>
 <body>
+    <!--Website Name/Logo-->
     <h1 class="logo" style="text-align: center;">Electric Worthy</h1>
     <hr>
     <header>
-        
+        <!--links for pages-->
         <nav>
             <ul>
                 <li><a href="index.html">Page 1</a></li>
@@ -28,10 +29,13 @@
         </nav>
     </header>
     <main>
+        <!--Page title-->
         <h2 style="text-align: center;">Contact Info:</h2>
         <p class="ci1">If you want any update notifications on ElectricWorthy, please make sure to subscribe to our website down below:</p>
+        
+        <!--Subscription Form-->
         <form action="/submit" method="post" class="ci1">
-
+            
             <label for="FirstName">First Name</label>
             <input type="text" id="FirstName" placeholder="Name here">
             <br>
@@ -40,9 +44,23 @@
             <br>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="example@gmail.com">
-            <br>
+            <!--Submit button-->
             <input type="submit" value="submit">
-        <p class="ci1">If you have any questions regarding our products, then please Contact Us at:</p>
+            <br>
+
+            <!--Thank you video for customers-->
+            <section id="videoSample">
+                <h3>Thank You Video</h3>
+                <video width="340" height="260" controls>
+    
+                    <source src="media/video.mp4" type="video/mp4">
+                    A thank you video for customers
+    
+                </video>
+
+            </section>
+            <!--Contact Info-->
+           <p class="ci1">If you have any questions regarding our products, then please Contact Us at:</p>
         <p class="ci1">Phone: <a href="tel:(123)456-7890">(123)456-7890</a></p>
         <p class="ci1">Email:<a href="electricworthy@gmail.com">electricworthy@gmail.com</a></p>
         </form>
