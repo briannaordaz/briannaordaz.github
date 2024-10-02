@@ -6,8 +6,12 @@ body {
 }
 
 
-.logo {
+#logo {
     font-family: cursive;
+}
+#table1 {
+        color:#763243
+        
 }
 
 .ci1 {
